@@ -67,6 +67,7 @@ p {
 }
 
 .dropdown {
+  background-color: #C4A29E;
   border: 1px solid #C4A29E;
   padding: 10px;
   margin-top: 10px;
@@ -79,5 +80,7 @@ p {
 
 a.button {
   display: inline-block;
- 
-
+  background-color: #AFD2E9;
+  color: #093824;
+  text-decoration: none;
+  padding
