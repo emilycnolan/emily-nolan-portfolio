@@ -5,9 +5,50 @@
   box-sizing: border-box;
 }
 
-/* Set a background color */
+/* Set background color and font styles */
 body {
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
-  line-height
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section styles */
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.container h2 {
+  font-size: 24px;
+  color: #777
 
