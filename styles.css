@@ -28,16 +28,23 @@ nav ul li a {
 
 section {
   padding: 50px;
-  background-color: #654C4F;
   color: #C4A29E;
 }
 
+.section-bg-light {
+  background-color: #AFD2E9;
+}
+
+.section-bg-dark {
+  background-color: #654C4F;
+}
+
 h2 {
-  color: #AFD2E9;
+  color: #093824;
 }
 
 h3 {
-  color: #AFD2E9;
+  color: #093824;
 }
 
 .project {
@@ -47,15 +54,21 @@ h3 {
 .dropdown {
   display: none;
   padding-top: 10px;
+  border: 1px solid #C4A29E;
 }
 
 .project:hover .dropdown {
   display: block;
 }
 
-a {
-  color: #2D728F;
+a.button {
+  display: inline-block;
+  background-color: #2D728F;
+  color: #AFD2E9;
+  padding: 10px 20px;
+  border-radius: 5px;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 footer {
@@ -64,3 +77,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
