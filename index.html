@@ -1,116 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-  <!-- Navbar -->
-  <nav>
-    <ul class="navbar">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Technical Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- About section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h1>About</h1>
-      <p>Emily Nolan</p>
-      <div class="contact-info">
-        <p>emilynolan1901@gmail.com</p>
-        <p>linkedin.com/in/emily-nolan-96794819a/</p>
-        <p>https://www.kaggle.com/emilynolan/code</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education section -->
-  <section id="education" class="education">
-    <div class="container">
-      <h1>Education</h1>
-      <div class="education-item">
-        <h3>University of Connecticut, Storrs, CT</h3>
-        <p>Bachelor of Arts, Statistics, May 2023</p>
-      </div>
-      <div class="education-item">
-        <h3>Rochester Institute of Technology, Rochester, NY</h3>
-        <p>Robotics and Manufacturing Engineering Technology, August 2019 - December 2020</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technical Skills section -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <h1>Technical Skills</h1>
+  <header>
+    <h1>Emily Nolan</h1>
+    <nav>
       <ul>
-        <li>Operating Systems: Windows, iOS, Linux</li>
-        <li>Microsoft Office: Word, Excel, PowerPoint, Teams, Outlook</li>
-        <li>Google Suite: Drive, Sheets, Sites, Slides</li>
-        <li>Statistics & Visualization: R Studio, JavaScript, HTML, SAS, Tableau, Python, C++, Minitab, MATLAB, LabView</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>A numerate, analytical individual with strong interpersonal and leadership skills. Looking to obtain an entry-level position of Data Scientist.</p>
+    <h3>Education</h3>
+    <p>University of Connecticut, Storrs, CT<br>
+      Bachelor of Arts, Statistics, May 2023</p>
+    <p>Rochester Institue of Technology, Rochester, NY<br>
+      Robotics and Manufacturing Engineering Technology, August 2019 - December 2020</p>
+    <h3>Technical Skills</h3>
+    <p>Operating Systems: Windows, iOS, Linux</p>
+    <p>Microsoft Office: Word, Excel, PowerPoint, Teams, Outlook</p>
+    <p>Google Suite: Drive, Sheets, Sites, Slides</p>
+    <p>Statistics & Visualization: R Studio, JavaScript, HTML, SAS, Tableau, Python, C++, Minitab, MATLAB, LabView</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of Project 1.</p>
+      <ul>
+        <li><a href="project1.pdf">PDF</a></li>
+        <li><a href="project1_website.html">Website</a></li>
       </ul>
     </div>
-  </section>
-
-  <!-- Experience section -->
-  <section id="experience" class="experience">
-    <div class="container">
-      <h1>Experience</h1>
-      <div class="experience-item">
-        <h3>School + State Finance Project</h3>
-        <p>Data Analyst Intern, February 2023 - June 2023</p>
-        <ul>
-          <li>Support research and policy development projects that advance the Project’s goal of eliminating racial and economic disparities in Connecticut education funding</li>
-          <li>Perform quantitative and qualitative analyses to develop effective and efficient school finance policy solutions</li>
-          <li>Collaborate with team members on research projects from end to end, including developing research questions and designs, collecting and cleaning data, analyzing data, analyzing policy, surfacing best practices, and presenting findings through written reports, presentations, web tools, and data visualizations</li>
-          <li>Maintain internal data systems containing state education, economic, fiscal, and budgetary data series for use in research and policy efforts</li>
-          <li>Execute and communicate well-defined analyses in a professional and knowledgeable manner</li>
-          <li>Document tasks, methods, data, and findings to a high level of precision, and ensure accuracy and efficiency across all work</li>
-          <li>Manage and execute an independent research project aligned with the organizational mission</li>
-        </ul>
-      </div>
-      <div class="experience-item">
-        <h3>MainStreet Work</h3>
-        <p>Incentives Specialist Intern, August 2022 - October 2022</p>
-        <ul>
-          <li>Perform client data analysis and streamline data extraction to report the findings</li>
-          <li>Analyze and organize the edge-case datasets and translate complex data into useful information to broaden product offering</li>
-          <li>Support the risk mitigation and contingency plans</li>
-          <li>Gain an understanding of the Research and Development (R&D) process by assisting with research, participating in technical kickoff meetings, collecting data, and preparing financial reports</li>
-          <li>Collaborate/participate in Operations and XFN team meetings to strategize and implement product functional and process improvements</li>
-        </ul>
-      </div>
-      <div class="experience-item">
-        <h3>BattleFin</h3>
-        <p>Marketing Intern, May 2022 - August 2022</p>
-      </div>
-      <div class="experience-item">
-        <h3>Levo International</h3>
-        <p>Marketing and Communications Manager, October 2021 - August 2022</p>
-      </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of Project 2.</p>
+      <ul>
+        <li><a href="project2.pdf">PDF</a></li>
+      </ul>
+    </div>
+    <div class="project">
+      <h3>Project 3</h3>
+      <p>Description of Project 3.</p>
     </div>
   </section>
 
-  <!-- Contact section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h1>Contact</h1>
-      <p>You can reach me at emilynolan1901@gmail.com</p>
-    </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: emilynolan1901@gmail.com</p>
+    <p>LinkedIn: <a href="linkedin.com/in/emily-nolan-96794819a/">linkedin.com/in/emily-nolan-96794819a/</a></p>
+    <p>Resume: <a href="https://www.kaggle.com/emilynolan/code">https://www.kaggle.com/emilynolan/code</a></p>
   </section>
 
-  <script src="script.js"></script>
 </body>
-
 </html>
 
